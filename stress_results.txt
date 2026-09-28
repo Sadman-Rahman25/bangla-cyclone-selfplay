@@ -1,0 +1,32 @@
+
+NLU v1 on DEV phrasings (400 dialogues per persona)
+  persona          correct  handoff   wrong  incompl  turns
+  standard          100.0%     0.0%    0.0%     0.0%    2.4
+  banglish            0.0%   100.0%    0.0%     0.0%    2.0
+  sylheti_style      17.8%    82.2%    0.0%     0.0%    3.2
+  noisy              38.0%    62.0%    0.0%     0.0%    2.0
+  fairness gap (max - min correct): 100.0%
+
+NLU v2 on DEV phrasings (400 dialogues per persona)
+  persona          correct  handoff   wrong  incompl  turns
+  standard          100.0%     0.0%    0.0%     0.0%    2.4
+  banglish          100.0%     0.0%    0.0%     0.0%    2.4
+  sylheti_style     100.0%     0.0%    0.0%     0.0%    2.4
+  noisy              97.5%     2.5%    0.0%     0.0%    2.4
+  fairness gap (max - min correct): 2.5%
+
+NLU v1 on TEST phrasings (400 dialogues per persona)
+  persona          correct  handoff   wrong  incompl  turns
+  standard           63.2%    36.8%    0.0%     0.0%    2.8
+  banglish            0.0%   100.0%    0.0%     0.0%    2.0
+  sylheti_style      13.8%    86.2%    0.0%     0.0%    3.1
+  noisy               0.0%   100.0%    0.0%     0.0%    2.4
+  fairness gap (max - min correct): 63.2%
+
+NLU v2 on TEST phrasings (400 dialogues per persona)
+  persona          correct  handoff   wrong  incompl  turns
+  standard           64.2%    35.8%    0.0%     0.0%    2.7
+  banglish           63.2%    36.8%    0.0%     0.0%    2.8
+  sylheti_style      64.2%    33.5%    2.2%     0.0%    2.7
+  noisy              57.8%    42.2%    0.0%     0.0%    2.7
+  fairness gap (max - min correct): 6.5%

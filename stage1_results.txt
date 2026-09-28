@@ -1,0 +1,24 @@
+Invariant violations: 0 across 1000 outlines
+
+Outcome distribution:
+  safe_advice                     331  (33.1%)
+  rescue_escalated                305  (30.5%)
+  shelter_confirmed               193  (19.3%)
+  rescue_after_shelter_refusal     75  (7.5%)
+  no_shelter_capacity              62  (6.2%)
+  location_unknown                 34  (3.4%)
+
+Turns per dialogue: mean 7.08, min 4, max 12
+
+Diversity (self-play vs scripted):
+  unique_transitions_per_turn    0.0133   0.0009
+  unique_subdialogues_k3         0.0385   0.0010
+  unique_outlines_ratio          0.0710   0.0010
+I1 re-request          detected=True  ['I1 re-requested location']
+I2 invalid shelter     detected=True  ['I2 invalid shelter offer']
+I3 rescue dropped      detected=True  ['I3 rescue need not escalated']
+I4 wrong priority      detected=True  ['I4 wrong priority']
+I5 capacity ignored    detected=True  ['I2 invalid shelter offer', 'I5 capacity handling wrong', 'I6 caller left unresolved']
+I6 unresolved          detected=True  ['I6 caller left unresolved']
+
+Mutants detected: 6/6
